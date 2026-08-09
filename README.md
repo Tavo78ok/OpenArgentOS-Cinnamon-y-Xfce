@@ -6,6 +6,11 @@ Combinando la estética cuidada y moderna de **Cinnamon** con la eficiencia extr
 
 ---
 
+<img width="1440" height="900" alt="Captura de pantalla de 2026-07-20 00-01-10" src="https://github.com/user-attachments/assets/cdde87a1-f70e-4b6f-b47a-664971e9ed22" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-08-04 00-40-25" src="https://github.com/user-attachments/assets/f429411a-6a98-43dd-9668-c99b84a4eaf2" />
+
+
 ## ✨ Características Principales
 
 * **Doble Entorno de Escritorio:**
