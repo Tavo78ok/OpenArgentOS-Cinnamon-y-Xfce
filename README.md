@@ -6,9 +6,14 @@ Combinando la estética cuidada y moderna de **Cinnamon** con la eficiencia extr
 
 ---
 
-<img width="1440" height="900" alt="Captura de pantalla de 2026-07-20 00-01-10" src="https://github.com/user-attachments/assets/cdde87a1-f70e-4b6f-b47a-664971e9ed22" />
+<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-40-00" src="https://github.com/user-attachments/assets/a8c8a1af-87cc-4595-aa59-434cc54d7c77" />
 
-<img width="1440" height="900" alt="Captura de pantalla de 2026-08-04 00-40-25" src="https://github.com/user-attachments/assets/f429411a-6a98-43dd-9668-c99b84a4eaf2" />
+<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-40-36" src="https://github.com/user-attachments/assets/732fbd80-2580-4667-96c0-e816be38734f" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-40-14" src="https://github.com/user-attachments/assets/f14ac49f-bda2-497c-a15e-24b16981bd61" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-41-26" src="https://github.com/user-attachments/assets/019209d5-b7a1-487c-9b3b-060b235854c6" />
+
 
 
 ## ✨ Características Principales
