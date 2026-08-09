@@ -51,7 +51,10 @@ sudo coa build
 ```
 # 📥 Descarga de la ISO
 Las imágenes ISO oficiales listas para grabar en un pendrive (usando Ventoy, Rufus o el comando dd) se encuentran alojadas en Mediafire:
-Versión Escritorios Enlace de Descarga Verificación SHA256OpenArgentOS v1.0 (64-bit)Cinnamon & Xfce🔗 Descargar desde MediafireAQUI_TU_CODIGO_SHA256
+*Versión Escritorios 
+*Enlace de Descarga 
+*Verificación SHA256OpenArgentOS v1.0 (64-bit)Cinnamon & Xfce🔗 
+*Descargar desde Mediafire AQUI_TU_CODIGO_SHA256
 
 # 💡 Tip de seguridad: Después de descargar la ISO, podés verificar su integridad en la terminal corriendo:
 sha256sum OpenArgentOS.iso
