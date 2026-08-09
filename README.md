@@ -49,7 +49,7 @@ cd OpenArgentOS-Cinnamon-y-Xfce-
 # 2. Ejecutar la herramienta de compilación
 sudo coa build
 ```
- 📥 Descarga de la ISO
+## 📥 Descarga de la ISO
 Las imágenes ISO oficiales listas para grabar en un pendrive (usando Ventoy, Rufus o el comando dd) se encuentran alojadas en Mediafire:
 
 *Versión Escritorios: 
@@ -60,10 +60,10 @@ Las imágenes ISO oficiales listas para grabar en un pendrive (usando Ventoy, Ru
 
 *Descargar desde Mediafire: AQUI_TU_CODIGO_SHA256
 
- 💡 Tip de seguridad: Después de descargar la ISO, podés verificar su integridad en la terminal corriendo:
+## 💡 Tip de seguridad: Después de descargar la ISO, podés verificar su integridad en la terminal corriendo:
 sha256sum OpenArgentOS.iso
 
- ☕ Apoyá el desarrollo de OpenArgentOS
+## ☕ Apoyá el desarrollo de OpenArgentOS
 
 OpenArgentOS es un proyecto independiente y de código abierto. Si la distro te sirve para trabajar en tu taller, te ahorra tiempo o simplemente querés colaborar para mantener el desarrollo activo, podés apoyar el proyecto:
 
