@@ -52,13 +52,13 @@ sudo coa build
 # 📥 Descarga de la ISO
 Las imágenes ISO oficiales listas para grabar en un pendrive (usando Ventoy, Rufus o el comando dd) se encuentran alojadas en Mediafire:
 
-*Versión Escritorios 
+*Versión Escritorios: 
 
-*Enlace de Descarga
+*Enlace de Descarga:
 
-*Verificación SHA256OpenArgentOS v1.0 (64-bit)Cinnamon & Xfce
+*Verificación SHA256 OpenArgentOS v1.0 (64-bit)Cinnamon & Xfce
 
-*Descargar desde Mediafire AQUI_TU_CODIGO_SHA256
+*Descargar desde Mediafire: AQUI_TU_CODIGO_SHA256
 
 # 💡 Tip de seguridad: Después de descargar la ISO, podés verificar su integridad en la terminal corriendo:
 sha256sum OpenArgentOS.iso
@@ -69,13 +69,13 @@ OpenArgentOS es un proyecto independiente y de código abierto. Si la distro te 
 
 🇦🇷 Desde Argentina (Mercado Pago):
 
-💳 Alias MP: TU.ALIAS.MP
+💳 Alias MP: tavo.78.ok
 
-🔗 Link de Pago / CVU: Mercado Pago
+🔗 Link de Pago / CVU: 0000003100099682904311
 
 🌎 Desde el exterior (PayPal):
 
-💙 PayPal: paypal.me/TU_USUARIO
+💙 PayPal: https://paypal.me/GustavoCuevas582
 
 ¡Cada aporte ayuda un montón a seguir puliendo el sistema, mantener los repositorios y probar las ISOs en más equipamiento! 🙌
 
