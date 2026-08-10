@@ -1,6 +1,6 @@
 # 🇦🇷 OpenArgentOS (Cinnamon & Xfce)
 
-**OpenArgentOS** es una distribución de Linux personalizada basada en **Debian Trixie estable**, optimizada para ofrecer un sistema operativo liviano, elegante y listo para usar en el trabajo diario, producción y en el banco de pruebas.
+**OpenArgentOS** es una distribución de Linux personalizada basada en **Debian Trixie estable**, optimizada para ofrecer un sistema operativo liviano, elegante y listo para usar en el trabajo diario, producción, en la oficina, en la escuela o donde sea....
 
 Combinando la estética cuidada y moderna de **Cinnamon** con la eficiencia extrema de **Xfce**, OpenArgentOS está diseñada tanto para maximizar el rendimiento en equipos con recursos moderados como para brindar fluidez total en sistemas modernos.
 
