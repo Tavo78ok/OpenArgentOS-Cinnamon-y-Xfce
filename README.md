@@ -1,96 +1,99 @@
 # 🇦🇷 OpenArgentOS (Cinnamon & Xfce)
 
-**OpenArgentOS** es una distribución de Linux personalizada basada en Debian/LMDE, optimizada para ofrecer un sistema operativo liviano, elegante y listo para usar en el trabajo diario, producción y en el banco de pruebas.
+**OpenArgentOS** es una distribución de Linux personalizada basada en **Debian Trixie estable**, optimizada para ofrecer un sistema operativo liviano, elegante y listo para usar en el trabajo diario, producción y en el banco de pruebas.
 
 Combinando la estética cuidada y moderna de **Cinnamon** con la eficiencia extrema de **Xfce**, OpenArgentOS está diseñada tanto para maximizar el rendimiento en equipos con recursos moderados como para brindar fluidez total en sistemas modernos.
 
 ---
 
-<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-40-00" src="https://github.com/user-attachments/assets/a8c8a1af-87cc-4595-aa59-434cc54d7c77" />
-
-<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-40-36" src="https://github.com/user-attachments/assets/732fbd80-2580-4667-96c0-e816be38734f" />
-
-<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-40-14" src="https://github.com/user-attachments/assets/f14ac49f-bda2-497c-a15e-24b16981bd61" />
-
-<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-41-26" src="https://github.com/user-attachments/assets/019209d5-b7a1-487c-9b3b-060b235854c6" />
-
-
-
 ## ✨ Características Principales
 
-* **Doble Entorno de Escritorio:**
-  * **Cinnamon:** Configurado con paneles semitransparentes y un diseño cuidado fuera de la caja.
-  * **Xfce:** Ajustado para un consumo mínimo de RAM y respuesta ultra rápida.
-* **Instalador Gráfico Calamares:** Proceso de instalación guiado, fluido y adaptado al sistema.
-* **Ecosistema COA Tools:** Incluye las herramientas propias del proyecto (`coa tools skel`, scripts de despliegue y personalización).
-* **Configuración Out-of-the-Box:** Widgets integrados (*Gis-Weather*), pantalla de bienvenida y perfiles de usuario preconfigurados en `/etc/skel`.
+- **Doble Entorno de Escritorio:**
+  - **Cinnamon:** Configurado con paneles semitransparentes y un diseño cuidado fuera de la caja.
+  - **Xfce:** Ajustado para un consumo mínimo de RAM y respuesta ultra rápida.
+- **Instalador Gráfico Calamares:** Proceso de instalación guiado, fluido y adaptado al sistema, con branding propio.
+- **Herramientas propias:** Argent OpenDash (GTK4/Libadwaita) y Argent Extrepo Manager, desarrolladas específicamente para este proyecto.
+- **Configuración Out-of-the-Box:** Widget de clima integrado, pantalla de bienvenida y perfiles de usuario preconfigurados en `/etc/skel`, listos desde el primer inicio de sesión.
+- **WineHQ preinstalado** y todo lo necesario para instalar y usar aplicaciones de Windows.
 
 ---
 
 ## 💻 Requisitos del Sistema
 
-| Componente | Requisito Mínimo | Recomendado |
-| :--- | :--- | :--- |
-| **Procesador** | 64-bit Dual Core | 64-bit Quad Core |
-| **Memoria RAM** | 2 GB | 4 GB o superior |
-| **Almacenamiento** | 15 GB HDD | 20 GB SSD |
-| **Pantalla** | 1024 x 768 | 1920 x 1080 |
+| Componente         | Requisito Mínimo | Recomendado      |
+| ------------------ | ----------------- | ------------------ |
+| **Procesador**     | 64-bit Dual Core  | 64-bit Quad Core  |
+| **Memoria RAM**    | 2 GB               | 4 GB o superior   |
+| **Almacenamiento** | 15 GB HDD          | 20 GB SSD          |
+| **Pantalla**       | 1024 x 768         | 1920 x 1080        |
 
 ---
 
-## 🛠️ Estructura del Proyecto
+## 🛠️ Estructura del Repositorio
 
-* `/etc/skel` - Plantillas de perfil predeterminadas para usuarios nuevos.
-* `/etc/xdg/autostart` - Scripts y accesos directos de inicio automático global (*Welcome*, *Gis-Weather*).
-* `calamares/` - Archivos de configuración de los módulos del instalador.
-* `scripts/` - Scripts auxiliares de desarrollo y empaquetado (`coa`).
+- `OpenArgentOS-Wallpapers/` — Fondos de pantalla oficiales del proyecto.
+- `argentos-optimize.sh` — Optimizador de sistema para el usuario final: ajusta `swappiness` y `vfs_cache_pressure`, instala y activa `preload`, configura ZRAM (lz4, 50% de la RAM) y crea un swapfile de 4 GB si no existe.
+- `limpiar-y-compilar.sh` — Script de build para desarrollo: sanitiza el equipo (historial de bash, cachés de navegador, archivos recientes, logs de journald) para que no viaje ningún rastro personal a la ISO, y encadena `coa destroy` → `coa tools skel` → `coa remaster` para dejar la imagen final en `/home/eggs/`.
+- `LICENSE` — Licencia GPLv3.
+
+> Este repositorio funciona como vidriera y documentación del proyecto. La receta completa de armado del sistema (branding de Calamares, configuración de `coa`, apps ArgOS) vive en repos separados de cada herramienta.
 
 ---
 
 ## 🚀 Compilación de la Imagen ISO
 
-Para generar la imagen ISO ejecutable utilizando las herramientas del proyecto:
+OpenArgentOS se construye con **[coa](https://github.com/pieroproietti/penguins-eggs)**, la herramienta de remasterizado de Piero Proietti — no es una herramienta propia de este proyecto, y no queda instalada en el sistema final (se purga automáticamente durante la instalación).
+
+Para generar tu propia ISO a partir de un sistema OpenArgentOS ya configurado:
 
 ```bash
-# 1. Clonar el repositorio
-git clone [https://github.com/Tavo78ok/OpenArgentOS-Cinnamon-y-Xfce-.git](https://github.com/Tavo78ok/OpenArgentOS-Cinnamon-y-Xfce-.git)
-cd OpenArgentOS-Cinnamon-y-Xfce-
-
-# 2. Ejecutar la herramienta de compilación
-sudo coa build
+sudo coa destroy
+sudo coa tools skel
+sudo coa remaster
 ```
+
+O usá directamente `limpiar-y-compilar.sh` de este repo, que además sanitiza el equipo (borra historial, cachés de navegador y logs) antes de encadenar los tres pasos, para que no viaje ningún rastro personal del desarrollador a la ISO final.
+
+La ISO resultante queda en `/home/eggs/`.
+
+---
+
 ## 📥 Descarga de la ISO
-Las imágenes ISO oficiales listas para grabar en un pendrive (usando Ventoy, Rufus o el comando dd) se encuentran alojadas en Mediafire:
 
-*Versión Escritorios: 
+Las imágenes ISO oficiales, listas para grabar en un pendrive (con Ventoy, Rufus o el comando `dd`), están alojadas en Mediafire:
 
-*Enlace de Descarga:
+| Edición  | Descarga | SHA256 |
+| -------- | -------- | ------ |
+| Cinnamon | [Descargar](TU_LINK_AQUI) | `TU_HASH_SHA256_AQUI` |
+| Xfce     | [Descargar](TU_LINK_AQUI) | `TU_HASH_SHA256_AQUI` |
 
-*Verificación SHA256 OpenArgentOS v1.0 (64-bit)Cinnamon & Xfce
+### 💡 Tip de seguridad
 
-*Descargar desde Mediafire: AQUI_TU_CODIGO_SHA256
+Después de descargar la ISO, verificá su integridad antes de usarla:
 
-## 💡 Tip de seguridad: Después de descargar la ISO, podés verificar su integridad en la terminal corriendo:
+```bash
 sha256sum OpenArgentOS.iso
+```
+
+Comparado el resultado con el hash publicado en la tabla de arriba — si no coincide, no la uses, volvé a descargarla.
+
+---
 
 ## ☕ Apoyá el desarrollo de OpenArgentOS
 
 OpenArgentOS es un proyecto independiente y de código abierto. Si la distro te sirve para trabajar en tu taller, te ahorra tiempo o simplemente querés colaborar para mantener el desarrollo activo, podés apoyar el proyecto:
 
-🇦🇷 Desde Argentina (Mercado Pago):
+**🇦🇷 Desde Argentina (Mercado Pago):**
+- 💳 Alias MP: `tavo.78.ok`
+- 🔗 CVU: `0000003100099682904311`
 
-💳 Alias MP: tavo.78.ok
-
-🔗 Link de Pago / CVU: 0000003100099682904311
-
-🌎 Desde el exterior (PayPal):
-
-💙 PayPal: https://paypal.me/GustavoCuevas582
+**🌎 Desde el exterior (PayPal):**
+- 💙 [paypal.me/GustavoCuevas582](https://paypal.me/GustavoCuevas582)
 
 ¡Cada aporte ayuda un montón a seguir puliendo el sistema, mantener los repositorios y probar las ISOs en más equipamiento! 🙌
 
-📄 Licencia
-Este proyecto es de código abierto y está distribuido bajo la licencia GPLv3.
+---
 
+## 📄 Licencia
 
-
+Este proyecto es de código abierto y está distribuido bajo la licencia **GPLv3**.
