@@ -4,6 +4,26 @@
 
 Combinando la estética cuidada y moderna de **Cinnamon** con la eficiencia extrema de **Xfce**, OpenArgentOS está diseñada tanto para maximizar el rendimiento en equipos con recursos moderados como para brindar fluidez total en sistemas modernos.
 
+* Edicion Cinnamon
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-40-00" src="https://github.com/user-attachments/assets/338206b5-ac64-4fd7-84dc-c7f03002419a" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-40-14" src="https://github.com/user-attachments/assets/89644015-f464-4fa6-8d73-f292c15be23d" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-40-36" src="https://github.com/user-attachments/assets/e28e328c-bb0e-4fd8-83dc-129cdb760932" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-41-26" src="https://github.com/user-attachments/assets/a84f1c07-9087-4732-8482-db911ad8d663" />
+
+* Edicion Xfce
+
+<img width="1440" height="900" alt="Captura de pantalla_2026-08-10_18-40-24" src="https://github.com/user-attachments/assets/6959cfaa-5a0c-4899-8332-04d64a90b1ff" />
+
+<img width="1440" height="900" alt="Captura de pantalla_2026-08-10_18-40-46" src="https://github.com/user-attachments/assets/770dfdfb-3465-442d-a845-ca3e1c34a710" />
+
+<img width="1440" height="900" alt="Captura de pantalla_2026-08-10_18-41-10" src="https://github.com/user-attachments/assets/afe22ffd-4ea3-4b51-878b-e51519b05b3e" />
+
+<img width="1440" height="900" alt="Captura de pantalla_2026-08-10_18-44-02" src="https://github.com/user-attachments/assets/5e78ef5e-4c9f-4490-b9ed-4c0c91e82e22" />
+
 ---
 
 ## ✨ Características Principales
