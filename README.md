@@ -56,7 +56,7 @@ Combinando la estética cuidada y moderna de **Cinnamon** con la eficiencia extr
 - `limpiar-y-compilar.sh` — Script de build para desarrollo: sanitiza el equipo (historial de bash, cachés de navegador, archivos recientes, logs de journald) para que no viaje ningún rastro personal a la ISO, y encadena `coa destroy` → `coa tools skel` → `coa remaster` para dejar la imagen final en `/home/eggs/`.
 - `LICENSE` — Licencia GPLv3.
 
-> Este repositorio funciona como vidriera y documentación del proyecto. La receta completa de armado del sistema (branding de Calamares, configuración de `coa`, apps ArgOS) vive en repos separados de cada herramienta.
+> Este repositorio funciona como vidriera y documentación del proyecto. La receta completa de armado del sistema (branding de Calamares, configuración de `coa`, apps ArgentOS) vive en repos separados de cada herramienta.
 
 ---
 
@@ -84,8 +84,8 @@ Las imágenes ISO oficiales, listas para grabar en un pendrive (con Ventoy, Rufu
 
 | Edición  | Descarga | SHA256 |
 | -------- | -------- | ------ |
-| Cinnamon | [Descargar](TU_LINK_AQUI) | `...................` |
-| Xfce     | [Descargar](TU_LINK_AQUI) | `...................` |
+| Cinnamon | [Descargar](............) | `...................` |
+| Xfce     | [Descargar](............) | `...................` |
 
 ### 💡 Tip de seguridad
 
