@@ -22,7 +22,7 @@ Combinando la estética cuidada y moderna de **Cinnamon** con la eficiencia extr
 
 <img width="1440" height="900" alt="Captura de pantalla_2026-08-10_18-41-10" src="https://github.com/user-attachments/assets/afe22ffd-4ea3-4b51-878b-e51519b05b3e" />
 
-<img width="1440" height="900" alt="Captura de pantalla_2026-08-10_18-44-02" src="https://github.com/user-attachments/assets/5e78ef5e-4c9f-4490-b9ed-4c0c91e82e22" />
+
 
 ---
 
