@@ -84,8 +84,8 @@ Las imágenes ISO oficiales, listas para grabar en un pendrive (con Ventoy, Rufu
 
 | Edición  | Descarga | SHA256 |
 | -------- | -------- | ------ |
-| Cinnamon | [Descargar](TU_LINK_AQUI) | `TU_HASH_SHA256_AQUI` |
-| Xfce     | [Descargar](TU_LINK_AQUI) | `TU_HASH_SHA256_AQUI` |
+| Cinnamon | [Descargar](TU_LINK_AQUI) | `...................` |
+| Xfce     | [Descargar](TU_LINK_AQUI) | `...................` |
 
 ### 💡 Tip de seguridad
 
