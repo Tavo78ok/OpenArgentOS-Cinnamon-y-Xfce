@@ -28,7 +28,7 @@ Combinando la estética cuidada y moderna de **Cinnamon** con la eficiencia extr
 
 ## ✨ Características Principales
 
-- **Doble Entorno de Escritorio:**
+- **Dos Entorno de Escritorio:**
   - **Cinnamon:** Configurado con paneles semitransparentes y un diseño cuidado fuera de la caja.
   - **Xfce:** Ajustado para un consumo mínimo de RAM y respuesta ultra rápida.
 - **Instalador Gráfico Calamares:** Proceso de instalación guiado, fluido y adaptado al sistema, con branding propio.
