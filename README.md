@@ -32,7 +32,7 @@ Combinando la estética cuidada y moderna de **Cinnamon** con la eficiencia extr
   - **Cinnamon:** Configurado con paneles semitransparentes y un diseño cuidado fuera de la caja.
   - **Xfce:** Ajustado para un consumo mínimo de RAM y respuesta ultra rápida.
 - **Instalador Gráfico Calamares:** Proceso de instalación guiado, fluido y adaptado al sistema, con branding propio.
-- **Herramientas propias:** Argent OpenDash (GTK4/Libadwaita) y Argent Extrepo Manager, desarrolladas específicamente para este proyecto.
+- **Herramientas propias:** Argent OpenDash (GTK4/Libadwaita),Argent Extrepo Manager, Argent Muscic Player, desarrolladas específicamente para este proyecto.
 - **Configuración Out-of-the-Box:** Widget de clima integrado, pantalla de bienvenida y perfiles de usuario preconfigurados en `/etc/skel`, listos desde el primer inicio de sesión.
 - **WineHQ preinstalado** y todo lo necesario para instalar y usar aplicaciones de Windows.
 
