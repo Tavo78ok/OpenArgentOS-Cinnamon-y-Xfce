@@ -90,11 +90,6 @@ Las imágenes ISO oficiales, listas para grabar en un pendrive (con Ventoy, Rufu
 ### 💡 Tip de seguridad
 
 Después de descargar la ISO, verificá su integridad antes de usarla:
-
-```bash
-sha256sum OpenArgentOS.iso
-```
-
 Comparado el resultado con el hash publicado en la tabla de arriba — si no coincide, no la uses, volvé a descargarla.
 
 ---
