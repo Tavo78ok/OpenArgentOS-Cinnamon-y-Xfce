@@ -89,7 +89,7 @@ Las imágenes ISO oficiales, listas para grabar en un pendrive (con Ventoy, Rufu
 
 ## Nuevo: 
 
-enlaces torrent en la sección de release, para una descarga más rápida y segura
+* Enlaces torrent en la sección de release, para una descarga más rápida y segura
 
 ### 💡 Tip de seguridad
 
