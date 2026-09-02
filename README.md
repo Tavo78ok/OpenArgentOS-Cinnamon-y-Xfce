@@ -84,8 +84,8 @@ Las imágenes ISO oficiales, listas para grabar en un pendrive (con Ventoy, Rufu
 
 | Edición  | Descarga | SHA256 |
 | -------- | -------- | ------ |
-| Cinnamon | [Descarger](https://www.mediafire.com/file/vr7rt8ff3qv2lju/openargentos-cinnamon-v1.iso) | `728c1861183fa89443c36d0af4dc43d1c1d9cadfed971bd7a7849b7ce7ee1a4d` |
-| Xfce     | [Descargar](https://www.mediafire.com/file/59dofidufsr669x/openargentos-xfce-v1.iso) | `65353ad7446b69ae5d48835f4cae6f628a015cc6a2b0d0c0e37ad08360f58f43` |
+| Cinnamon | [Descarger](https://www.mediafire.com/file/w1cyfj87udfdwn3/openargentos-cinnamon-v1.1.iso/file) | `d6c0d299a40609175bd8d464f9d273b6e64135aae16e1e29e57cf513f29d893e` |
+| Xfce     | [Descargar](https://www.mediafire.com/file/4qakfw1d0fsxkqa/openargentos-xfce-v1.1.iso/file) | `4dc8690268ad49221a3b2c2d624f04aea6481de117bf8383ff31bd0c6ba80ecf` |
 
 ### 💡 Tip de seguridad
 
