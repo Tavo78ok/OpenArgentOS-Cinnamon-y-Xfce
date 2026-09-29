@@ -6,13 +6,13 @@ Combinando la estética cuidada y moderna de **Cinnamon** con la eficiencia extr
 
 * Edicion Cinnamon
 
-<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-40-00" src="https://github.com/user-attachments/assets/338206b5-ac64-4fd7-84dc-c7f03002419a" />
+<img width="1440" height="900" alt="Captura de pantalla de 2026-09-29 16-43-57" src="https://github.com/user-attachments/assets/b2823e06-6a09-4315-932c-221c72b8f6b3" />
 
-<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-40-14" src="https://github.com/user-attachments/assets/89644015-f464-4fa6-8d73-f292c15be23d" />
+<img width="1440" height="900" alt="Captura de pantalla de 2026-09-29 16-44-29" src="https://github.com/user-attachments/assets/b41b47fb-6841-420f-808b-63c752b39922" />
 
-<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-40-36" src="https://github.com/user-attachments/assets/e28e328c-bb0e-4fd8-83dc-129cdb760932" />
+<img width="1440" height="900" alt="Captura de pantalla de 2026-09-29 16-45-01" src="https://github.com/user-attachments/assets/8a07a02e-226c-4f2a-a43a-ff8bcb37a352" />
 
-<img width="1440" height="900" alt="Captura de pantalla de 2026-08-08 21-41-26" src="https://github.com/user-attachments/assets/a84f1c07-9087-4732-8482-db911ad8d663" />
+<img width="1440" height="900" alt="Captura de pantalla de 2026-09-29 16-46-01" src="https://github.com/user-attachments/assets/c9427619-0c31-4e07-80ef-d7d35de53718" />
 
 * Edicion Xfce
 
