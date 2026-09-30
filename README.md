@@ -91,6 +91,12 @@ Las imágenes ISO oficiales, listas para grabar en un pendrive (con Ventoy, Rufu
 
 * Enlaces torrent en la sección de release, para una descarga más rápida y segura
 
+* Kernel 7.1.13 para una mayor compatibilidad con hardware mas reciente y todas las novedades y mejoras que trae este kernel
+
+* Argent Opendash Qt5 Edition, ahora forma paret del entorno Cinnamon, ya que la version Gtk4 solia traer freezes en el sistema
+
+* Argent Music Player ahora no se olvida del tema elegido
+
 ### 💡 Tip de seguridad
 
 Después de descargar la ISO, verificá su integridad antes de usarla, comparado el resultado con el hash publicado en la tabla de arriba — si no coincide, no la uses, volvé a descargarla.
